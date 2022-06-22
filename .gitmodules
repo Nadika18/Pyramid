@@ -4,3 +4,9 @@
 [submodule "external_libraries/glad"]
 	path = external_libraries/glad
 	url = https://github.com/Dav1dde/glad.git
+[submodule "external_libraries/glm"]
+	path = external_libraries/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "external_libraries/assimp"]
+	path = external_libraries/assimp
+	url = https://github.com/assimp/assimp.git
