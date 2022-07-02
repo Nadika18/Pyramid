@@ -84,7 +84,10 @@ SET_TARGET_PROPERTIES(STB_IMAGE PROPERTIES LINKER_LANGUAGE C)
 find_package(OpenGL REQUIRED)
 
 
-add_executable(main src/main.cpp)
+add_executable(
+	main src/main.cpp
+
+)
 add_subdirectory(external_libraries/glfw)
 add_subdirectory(external_libraries/glm)
 include_directories( 
@@ -93,6 +96,7 @@ include_directories(
 	external_libraries/glad/include
 	inc
 	external_libraries/stb_image/include
+	external_libraries/glm
 	${CMAKE_BINARY_DIR}/config
 )
 
@@ -102,6 +106,7 @@ target_include_directories(main
     PUBLIC external_libraries/glfw/include
 	PUBLIC external_libraries/glew-1.13.0/include
 	PUBLIC external_libraries/glad/include
+	PUBLIC external_libraries/glm
 	PUBLIC inc
 	PUBLIC external_libraries/stb_image/include
 	
