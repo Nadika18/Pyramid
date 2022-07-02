@@ -1,14 +1,15 @@
 # Pyramid
-Implemention of OpenGL assignment (Pyramid rendered)
+<h3>Implemention of OpenGL assignment (Pyramid rendered) </h3>
 
-Commands to initialise git module :
+<h4>Commands to initialise git module :</h4>
+<br>
 
-git submodule init
-git submodule update
+git submodule init <br>
+git submodule update <br>
 
-Now, build the program using following commands:
+<h4>Now, build the program using following commands:</h4>
 
-cmake -S  .  -B ./build
-cd build
-make .j12
-./main   
+cmake -S  .  -B ./build <br>
+cd build <br>
+make .j12 <br>
+./main   <br>
